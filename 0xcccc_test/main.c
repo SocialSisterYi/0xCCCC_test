@@ -1,5 +1,5 @@
 /*测试栈溢出的程序
-只能用vs的debug编译，栈的未用区域会自动填充为cccc
+只能用VC的debug编译，栈未初始化区域自动填充为0xcccc
 */
 
 #include <stdio.h>
